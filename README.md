@@ -1,23 +1,21 @@
-# Getting Started with Create React App
+# This A watch corner single niche website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was React with [Create React App](https://watch-corner.web.app/).
 
-## Available Scripts
+## firebase
 
-In the project directory, you can run:
+I can use here firebase for logind details.
 
-### `yarn start`
+### `react router
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I can also use here react router.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `node, express, mongodb
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+And I also use here node, express, mongodb .
 
 ### `yarn build`
 
