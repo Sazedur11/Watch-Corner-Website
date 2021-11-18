@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
     background-color: #233e57;
     display: flex;
     padding-top: 10vh;
@@ -10,4 +10,21 @@
     flex-direction: column;
     padding-top: 5vh;
 }
+} */
+
+.footer-container{
+    display: flex;
+    background-color: #1976d2bd;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding: 25px 10px 20px 10px;
+    margin-top: 10vh;
 }
+@media only screen and (max-width: 414px) {
+    .footer-container{
+        display: block;
+        text-align: center;
+    }
+  }

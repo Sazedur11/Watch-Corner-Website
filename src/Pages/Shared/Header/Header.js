@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import { HashLink } from 'react-router-hash-link';
@@ -11,14 +11,12 @@ const Header = () => {
         <>
             <Navbar className="menu" variant="dark" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
-                    <Navbar.Brand href="#home">Travel Agent</Navbar.Brand>
+                    <Navbar.Brand href="#home">Watch Corner</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
-                        <Nav.Link as={HashLink} to="/addservice">Add Service</Nav.Link>
-                        <Nav.Link as={HashLink} to="/home#contact">Contact</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#addreview">Reviews</Nav.Link>
 
                         {user.email && <span style={{ color: 'white' }}>Hello {user.displayName} </span>}
                         {
